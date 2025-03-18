@@ -21,6 +21,7 @@ public class Server {
 
             }
         } catch (IOException e){
+            closeServerSocket();
 
         }
     }
